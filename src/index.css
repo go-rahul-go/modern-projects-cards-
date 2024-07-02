@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+   /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none; 
+        scroll-behavior: smooth; /* Firefox */
+  }
+  .shadow1{
+    box-shadow: 0px 2px 0.6rem rgb(207, 207, 207);
+  }
+  .outlinig1{
+    transition: all 150ms linear;
+   outline:2px solid rgb(31, 31, 31);
+   outline-offset: 2px;
+  }
+  .outlinig2{
+    transition: all 150ms linear;
+    outline:2px solid rgb(17, 128, 255);
+   outline-offset: 2px;
+  }
+}
